@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Paul O'Brien's Bus Mall</title>
+</head>
+<body>
+  <nav>
+    <h1>Bus Mall Selector</h1>
+  </nav>
+  <main>
+    <div id="selectorBox">
+      <header id='topOfPage'>Click.Your.Choice!</header>
+
+      <div> <!-- Where the Photos Reside-->
+        <h4 id="imgOneTitle">First</h4>
+        <img id="imgOneSource"src="" alt="alt">
+      </div>
+      <div>
+        <h4 id="imgTwoTitle">Second Photo</h4>
+        <img id="imgTwoSource" src="" alt="alt">
+      </div>
+      <div>
+        <h4 id="imgThreeTitle">Third Photo</h4>
+        <img id="imgThreeSource" src="" alt="alt">
+      </div>
+    </div>
+  </main>
+
+  <div id = 'results'> <!-- Where the results show-->
+  </div>
+  <h2 id = 'clickResults'></h2>
+
+  <canvas id="myChart" width="400" height="400"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
