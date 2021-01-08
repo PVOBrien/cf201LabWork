@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seattle's Select Salmon Cookies</title>
+  <link rel="stylesheet " type="text/css" href="css/style.css">
+</head>
+<body>
+  <p>Patty's Salmon Cookies</p>
+
+  <form id="branchInput">
+    <fieldset>
+      <Legend>Enter Your Store Data Here</Legend>
+      
+      <label for="branchName">Name of Branch:</label>
+      <input type="text" name="branchName">
+
+      <label for="minCustomerInput">Minimum Customer/hour</label>
+      <input type="text" name="minCustomerInput">
+
+      <label for="maxCustomerInput">Maximum Customer/hour</label>
+      <input type="text" name="maxCustomerInput">
+
+      <label for="averageCookiesInput">Average Cookies Sold</label>
+      <input type="text" name="averageCookiesInput">
+
+      <label for="openingTime">Opening Hour</label>
+      <input type="text" name="timeOpening">
+
+      <label for="closingTime">Closing Time</label>
+      <input type="text" name="timeClosed">
+
+      <button>Compute Your Branch</button>
+    </fieldset>
+  </form>
+
+  <br>
+
+  <div>
+    <table id='branchSalesData'>
+    </table>
+  </div>
+  
+  <p>
+    <a href="index.html">Back to Home</a>
+  </p>
+
+<script src="js/app.js"></script>
+</body>
+</html>

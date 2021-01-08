@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+  background-color: rgb(142, 205, 230);
+}
+
+.italics {
+  color: green;
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+  background-color: rgb(77, 131, 153);
+  color: white;
+}
+
+nav {
+  background-color: #444;
+  height: 120px;
+  width: 960px;
+  border-bottom: black solid 5px;
+}
+
+nav > img {
+  margin: 30px 40px 5px 40px;
+  float: left;
+  height: 60px;
+  background-color: #444;
+  position: absolute;
+  z-index: 0;
+}
+
+nav h1 {
+  float: right;
+  margin-top: 35px;
+  margin-right: 60px;
+  background-color: skyblue;
+  border-radius: 15px;
+  padding: 0px 45px 0px 15px;
+  font-family: 'Bellota', cursive;
+  font-size: 38px;
+  z-index: 5;
+}
+
+main {
+  width: 960px;
+  background-color: rgb(77, 131, 153);
+  margin: auto;
+}
+
+.topImage {
+  margin: 0px 30px 0px 20px;
+  float: left;
+  max-height: 200px;
+  border-radius: 10px;
+}
+
+#heroHeader {
+  float: left;
+  width: 960px;
+  margin: 10px 0px 15px 0px;
+  margin-bottom: 15px;
+  background-color: rgb(77, 131, 153);
+}
+
+ul:first-of-type p {
+  color: black;
+  float: left;
+  font-size: larger;
+  width: 400px;
+  margin: 65px 10px 30px 10px;
+  background-color: rgb(77, 131, 153);
+}
+
+main > ul {
+  overflow: hidden;
+  margin-right: 0px;
+}
+
+article {
+  overflow: hidden;
+  width: 960px;
+}
+
+article div {
+  margin: auto;
+  float: left;
+}
+
+article h2 {
+  margin: 10px 0px 0px 60px;
+  text-decoration: underline;
+  font-size: xx-large;
+  /* background-color: white; */
+}
+
+article img {
+  float: left;
+  max-width: 200px;
+  min-height: 200px;
+}
+
+article section {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+article p {
+  width: 500px;
+  float: left;
+  margin: 30px;
+}
+
+article img {
+  float: left;
+}
+
+#bottomRow {
+  width: 960px;
+  padding: 0px 60px 0px 60px;
+  background-color: rgb(77, 131, 153);
+  display: inline-block;
+}
+
+#bottomRow h1 {
+  text-align: center;
+  background-color: rgb(77, 131, 153);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Bellota', cursive;
+}
+
+#bottomRow img {
+  max-width: 200px;
+  background-color: rgb(77, 131, 153);
+  vertical-align: middle; /* https://stackoverflow.com/questions/489340/vertically-align-text-next-to-an-image?rq=1 to vertically align the images. */
+  padding-bottom: 20px;
+}
+
+#addresses {
+  width: 960px;
+  margin: auto;
+  background-color: rgb(142, 205, 230);
+  border-top: solid black 15px;
+  padding-top: 10px;
+}
+
+#addresses ul {
+  list-style-type: none;
+  width: 285px;
+  float: left;
+  background-color: rgb(142, 205, 230);
+  padding-bottom: 15px;
+}
+
+#addresses li:last-child {
+  clear: both;
+  list-style-type: none;
+  width: 285px;
+}
+
+h3 {
+  margin: auto;
+  width: 960px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}

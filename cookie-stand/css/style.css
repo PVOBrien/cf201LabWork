@@ -1,0 +1,87 @@
+label {
+  margin-left: 10px;
+}
+
+input {
+  margin-left: 60px;
+  margin-right: 20px;
+  max-width: 40%;
+}
+
+fieldset { /* how to get this to only take the space necessary? */
+  margin-left: 40px;
+  margin-right: 60px;
+}
+
+th,tr,td {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(7, 8, 12);
+  background-color: #46AB88;
+  text-align: center;
+}
+li {
+  font-size: 24px;
+  color: #C0C5D5;
+  margin: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 0px
+}
+body {
+  background-color: rgb(144, 214, 190);
+}
+
+h1 {
+  font-size: 32px;
+  color: #C0C5D5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 0px;
+  margin: 0px;
+}
+
+#sales {
+  background-color: black;
+  border: black;
+  border-width: 10px;
+  border-style: dotted;
+  height: 100px;
+}
+
+#allTheSales {
+  color:darkblue;
+  font-size: 36px;
+  /* border-collapse: collapse; */
+  border-width: 15px;
+  padding: 25px;
+  clear: both;
+  background-color: yellow;
+  width: 900px;
+}
+
+th, td {
+  padding: 5px;
+  border-width: 10px;
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 2px solid #111111;
+  border-right: 2px solid #111111;
+}
+  
+section div {
+  height: 150px;
+  width: 150px;
+  background-color: #201d6450;
+  border: solid 1px #201d64;
+}
+
+input {
+  display:block;
+  max-width: 25%;
+}
+
+p{
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(7, 8, 12);
+  text-align: center;
+}
