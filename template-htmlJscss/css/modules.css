@@ -1,0 +1,27 @@
+section {
+  /* float: left; */
+  overflow: auto;
+  padding: 20px;
+}
+
+section img, section p{
+  max-width: 25vw;
+  max-height: 25vh;
+  font-family: 'Cabin Sketch', cursive;
+  justify-content: center;
+}
+
+h2 {
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section {
+  flex-basis: 30%;
+  justify-content: space-evenly;
+}
