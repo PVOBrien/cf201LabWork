@@ -107,6 +107,7 @@ function userCorrect(){
 }
 
 function guessCountry(){
+  guessCount = 0;
   while (guessCount < 6) {
     remainingGuesses = correctAnswerCount - guessCount; // TODO: what happens if I don't run this here?
     answerSix = prompt('Which countries did I go to for my work?', 'You have ' + remainingGuesses + ' guesses!').toLowerCase();
@@ -123,7 +124,13 @@ function guessCountry(){
       remainingGuesses = correctAnswerCount - guessCount; // TODO: And why is this code important here?
       // alert('Keep guessing, you\'ll get there!  You have ' + remainingGuesses + ' guesses remaining.')
     }
+
+    if (guessCount === 6) {
+      alert('Ah, no countries guessed. :\\');
+    }
   }
+  
+
 }
 
 function myCountries(){
